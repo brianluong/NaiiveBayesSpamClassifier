@@ -13,7 +13,7 @@ public class FileIOHelper {
 
 	
 	// todo: use stringbuffer to make reading faster
-	public static List<Email> getEmailsFromList(String emailFilesList, Classification classification) throws IOException {
+	public static List<Email> getEmailsFromList(String emailFilesList, Classification classification, int ngram) throws IOException {
 		InputStream inputStream = FileIOHelper.class.getResourceAsStream(emailFilesList);
 		BufferedReader br = new BufferedReader(new InputStreamReader(inputStream));
 		

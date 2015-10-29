@@ -25,8 +25,9 @@ public class Classifier {
 		classifier.setModel(trainer.trainWithoutEvaluation());
 		Results results = classifier.classify();
 		
-		System.out.println("The value K used in training is is " + Training.K);
+		System.out.println("The value K used in training is " + Training.K);
 		System.out.println("The Laplace smoothing constant using in training is " + Training.LAPLACE_SOOTHING_CONSTANT);
+		System.out.println("Training is using " + Training.N_GRAM + "-gram model");
 		System.out.println("The number of HAM emails that were classified correctly: " + results.computeCorrectlyPredicted(Classification.HAM));
 		System.out.println("The number of SPAM emails that were classified correctly: " + results.computeCorrectlyPredicted(Classification.SPAM));
 		System.out.println("The accuracy of classifying Ham is " + results.computeAccuracy(Classification.HAM) * 100 + "%");
@@ -60,7 +61,8 @@ public class Classifier {
 		
 		results = classifier.classify();
 		
-		System.out.println("The value K used in training is is " + trainer.getEvaluatedK() + " " + trainer.getEvaluatedLaplace());
+		System.out.println("The value K used in training is " + trainer.getEvaluatedK());
+		System.out.println("The Laplace smoothing constant used in training is " + trainer.getEvaluatedLaplace());
 		System.out.println("The number of HAM emails that were classified correctly: " + results.computeCorrectlyPredicted(Classification.HAM));
 		System.out.println("The number of SPAM emails that were classified correctly: " + results.computeCorrectlyPredicted(Classification.SPAM));
 		System.out.println("The accuracy of classifying Ham is " + results.computeAccuracy(Classification.HAM) * 100 + "%");
@@ -83,8 +85,8 @@ public class Classifier {
 	}
 	
 	public void addTestEmails(String spamTestEmailsPath, String hamTestEmailsPath) throws IOException {
-		testSpam = FileIOHelper.getEmailsFromList(spamTestEmailsPath, Classification.SPAM);
-		testHam = FileIOHelper.getEmailsFromList(hamTestEmailsPath, Classification.HAM);
+		testSpam = FileIOHelper.getEmailsFromList(spamTestEmailsPath, Classification.SPAM, Training.N_GRAM);
+		testHam = FileIOHelper.getEmailsFromList(hamTestEmailsPath, Classification.HAM, Training.N_GRAM);
 	}
 	
 	/**

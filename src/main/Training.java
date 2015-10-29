@@ -14,8 +14,9 @@ public class Training {
 	
 	private static final int EVAL_EMAILS_COUNT = 20;
 	
-	public static final int LAPLACE_SOOTHING_CONSTANT = 40; // vary between 1 - 50
-	public static final int K = 10; // vary this as well
+	public static final int LAPLACE_SOOTHING_CONSTANT = 25; // vary between 1 - 50
+	public static final int K = 3; // vary this as well
+	public static final int N_GRAM = 1; // vary this between 1 - 5
 	
 	private List<Email> spamEmails;
 	private List<Email> hamEmails;
@@ -30,8 +31,8 @@ public class Training {
 	private int evaluatedLaplace;
 
 	public Training(String spamTrainingEmailsFilePath, String hamTrainingEmailsFilePath) throws IOException {
-		spamEmails = FileIOHelper.getEmailsFromList(spamTrainingEmailsFilePath, Classification.SPAM);
-		hamEmails = FileIOHelper.getEmailsFromList(hamTrainingEmailsFilePath, Classification.HAM);
+		spamEmails = FileIOHelper.getEmailsFromList(spamTrainingEmailsFilePath, Classification.SPAM, N_GRAM);
+		hamEmails = FileIOHelper.getEmailsFromList(hamTrainingEmailsFilePath, Classification.HAM, N_GRAM);
 	}
 
 	/**

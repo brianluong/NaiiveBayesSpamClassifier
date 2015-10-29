@@ -16,20 +16,29 @@ public class Email {
 		this.classification = classification;
 		this.emailFilePath = emailFilePath;
 		this.originalEmailString = emailString;
-		calculateWordMap();
+		calculateWordMap(Training.N_GRAM);
 	}
 	
-	private void calculateWordMap() {
+	private void calculateWordMap(int n) {
 		// gets words, excludes punctuation & numbers,
 		String[] words = this.originalEmailString.split("[^a-zA-Z]+");
 		wordMap = new HashMap<String, Integer>();
-		for (String word : words) {
-			if (!wordMap.containsKey(word)) {
-				wordMap.put(word, 1);
-			} else {
-				wordMap.put(word, wordMap.get(word) + 1);
+		for(int i = 0; i < words.length - n + 1; i++) {
+			String phrase = "";
+			for(int j = 0; j < n; j++) {
+				if(j == n - 1) {
+					phrase += words[i + j];
+				} else {
+					phrase += words[i + j] + " ";
+				}
 			}
-		}		
+			
+			if(!wordMap.containsKey(phrase)) {
+				wordMap.put(phrase, 1);
+			} else {
+				wordMap.put(phrase, wordMap.get(phrase) + 1);
+			}
+		}
 	}
 	
 	public Map<String, Integer> getWordMap() {
