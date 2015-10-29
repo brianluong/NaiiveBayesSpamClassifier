@@ -66,7 +66,7 @@ public class Classifier {
 		System.out.println("The accuracy of classifying Ham is " + results.computeAccuracy(Classification.HAM) * 100 + "%");
 		System.out.println("The accuracy of classifying Spam is " + results.computeAccuracy(Classification.SPAM) * 100 + "%");
 		
-		// Commit n-gram features
+		// Commit n-gram features.
 	}
 	
 	public Classifier() {
