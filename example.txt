@@ -1,0 +1,33 @@
+k:0 laplace: 0
+spam correct: 5 ham correct: 20
+----------------------------------
+k:0 laplace: 5
+spam correct: 17 ham correct: 17
+----------------------------------
+
+...
+
+k:5 laplace: 65
+spam correct: 15 ham correct: 17
+----------------------------------
+k:5 laplace: 70
+spam correct: 15 ham correct: 17
+----------------------------------
+
+...
+
+k:20 laplace: 40
+spam correct: 4 ham correct: 20
+----------------------------------
+k:20 laplace: 45
+spam correct: 4 ham correct: 20
+----------------------------------
+
+...
+
+k:70 laplace: 65
+spam correct: 3 ham correct: 20
+----------------------------------
+k:70 laplace: 70
+spam correct: 3 ham correct: 20
+----------------------------------
