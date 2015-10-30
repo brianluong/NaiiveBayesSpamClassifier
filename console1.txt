@@ -1,0 +1,744 @@
+The value K used in training is 3
+The Laplace smoothing constant using in training is 25
+Training is using 1-gram model
+The number of HAM emails that were classified correctly: 99
+The number of SPAM emails that were classified correctly: 74
+The accuracy of classifying Ham is 99.0%
+The accuracy of classifying Spam is 74.0%
+An example of HAM email that was classified correctly: 
+An example of HAM email that was classified incorrectly: 
+An example of SPAM email that was classified correctly: 
+Subject: get that new car 8434people nowthe weather or climate in any 
+particular environment can change and affect what people eat and how much 
+of it they are able to eat .
+An example of SPAM email that was classified incorrectly: 
+Subject: re : feeling tired ?
+
+Altering k-values and Laplace soothing... 
+
+k:0 laplace: 0
+spam correct: 5 ham correct: 20
+----------------------------------
+k:0 laplace: 5
+spam correct: 17 ham correct: 17
+----------------------------------
+k:0 laplace: 10
+spam correct: 17 ham correct: 16
+----------------------------------
+k:0 laplace: 15
+spam correct: 17 ham correct: 16
+----------------------------------
+k:0 laplace: 20
+spam correct: 17 ham correct: 16
+----------------------------------
+k:0 laplace: 25
+spam correct: 17 ham correct: 16
+----------------------------------
+k:0 laplace: 30
+spam correct: 17 ham correct: 16
+----------------------------------
+k:0 laplace: 35
+spam correct: 17 ham correct: 16
+----------------------------------
+k:0 laplace: 40
+spam correct: 17 ham correct: 16
+----------------------------------
+k:0 laplace: 45
+spam correct: 17 ham correct: 16
+----------------------------------
+k:0 laplace: 50
+spam correct: 17 ham correct: 16
+----------------------------------
+k:0 laplace: 55
+spam correct: 17 ham correct: 16
+----------------------------------
+k:0 laplace: 60
+spam correct: 17 ham correct: 16
+----------------------------------
+k:0 laplace: 65
+spam correct: 17 ham correct: 16
+----------------------------------
+k:0 laplace: 70
+spam correct: 17 ham correct: 16
+----------------------------------
+k:5 laplace: 0
+spam correct: 9 ham correct: 18
+----------------------------------
+k:5 laplace: 5
+spam correct: 15 ham correct: 19
+----------------------------------
+k:5 laplace: 10
+spam correct: 12 ham correct: 19
+----------------------------------
+k:5 laplace: 15
+spam correct: 12 ham correct: 19
+----------------------------------
+k:5 laplace: 20
+spam correct: 12 ham correct: 19
+----------------------------------
+k:5 laplace: 25
+spam correct: 12 ham correct: 19
+----------------------------------
+k:5 laplace: 30
+spam correct: 12 ham correct: 18
+----------------------------------
+k:5 laplace: 35
+spam correct: 12 ham correct: 18
+----------------------------------
+k:5 laplace: 40
+spam correct: 12 ham correct: 18
+----------------------------------
+k:5 laplace: 45
+spam correct: 14 ham correct: 18
+----------------------------------
+k:5 laplace: 50
+spam correct: 14 ham correct: 17
+----------------------------------
+k:5 laplace: 55
+spam correct: 14 ham correct: 17
+----------------------------------
+k:5 laplace: 60
+spam correct: 15 ham correct: 17
+----------------------------------
+k:5 laplace: 65
+spam correct: 15 ham correct: 17
+----------------------------------
+k:5 laplace: 70
+spam correct: 15 ham correct: 17
+----------------------------------
+k:10 laplace: 0
+spam correct: 9 ham correct: 19
+----------------------------------
+k:10 laplace: 5
+spam correct: 11 ham correct: 19
+----------------------------------
+k:10 laplace: 10
+spam correct: 7 ham correct: 20
+----------------------------------
+k:10 laplace: 15
+spam correct: 5 ham correct: 20
+----------------------------------
+k:10 laplace: 20
+spam correct: 5 ham correct: 20
+----------------------------------
+k:10 laplace: 25
+spam correct: 5 ham correct: 20
+----------------------------------
+k:10 laplace: 30
+spam correct: 5 ham correct: 20
+----------------------------------
+k:10 laplace: 35
+spam correct: 5 ham correct: 20
+----------------------------------
+k:10 laplace: 40
+spam correct: 5 ham correct: 20
+----------------------------------
+k:10 laplace: 45
+spam correct: 5 ham correct: 20
+----------------------------------
+k:10 laplace: 50
+spam correct: 5 ham correct: 20
+----------------------------------
+k:10 laplace: 55
+spam correct: 5 ham correct: 20
+----------------------------------
+k:10 laplace: 60
+spam correct: 5 ham correct: 20
+----------------------------------
+k:10 laplace: 65
+spam correct: 5 ham correct: 20
+----------------------------------
+k:10 laplace: 70
+spam correct: 5 ham correct: 20
+----------------------------------
+k:15 laplace: 0
+spam correct: 7 ham correct: 19
+----------------------------------
+k:15 laplace: 5
+spam correct: 7 ham correct: 19
+----------------------------------
+k:15 laplace: 10
+spam correct: 5 ham correct: 20
+----------------------------------
+k:15 laplace: 15
+spam correct: 5 ham correct: 20
+----------------------------------
+k:15 laplace: 20
+spam correct: 5 ham correct: 20
+----------------------------------
+k:15 laplace: 25
+spam correct: 5 ham correct: 20
+----------------------------------
+k:15 laplace: 30
+spam correct: 5 ham correct: 20
+----------------------------------
+k:15 laplace: 35
+spam correct: 5 ham correct: 20
+----------------------------------
+k:15 laplace: 40
+spam correct: 5 ham correct: 20
+----------------------------------
+k:15 laplace: 45
+spam correct: 5 ham correct: 20
+----------------------------------
+k:15 laplace: 50
+spam correct: 4 ham correct: 20
+----------------------------------
+k:15 laplace: 55
+spam correct: 4 ham correct: 20
+----------------------------------
+k:15 laplace: 60
+spam correct: 4 ham correct: 20
+----------------------------------
+k:15 laplace: 65
+spam correct: 4 ham correct: 20
+----------------------------------
+k:15 laplace: 70
+spam correct: 4 ham correct: 20
+----------------------------------
+k:20 laplace: 0
+spam correct: 6 ham correct: 19
+----------------------------------
+k:20 laplace: 5
+spam correct: 6 ham correct: 19
+----------------------------------
+k:20 laplace: 10
+spam correct: 5 ham correct: 20
+----------------------------------
+k:20 laplace: 15
+spam correct: 5 ham correct: 20
+----------------------------------
+k:20 laplace: 20
+spam correct: 5 ham correct: 20
+----------------------------------
+k:20 laplace: 25
+spam correct: 5 ham correct: 20
+----------------------------------
+k:20 laplace: 30
+spam correct: 5 ham correct: 20
+----------------------------------
+k:20 laplace: 35
+spam correct: 4 ham correct: 20
+----------------------------------
+k:20 laplace: 40
+spam correct: 4 ham correct: 20
+----------------------------------
+k:20 laplace: 45
+spam correct: 4 ham correct: 20
+----------------------------------
+k:20 laplace: 50
+spam correct: 4 ham correct: 20
+----------------------------------
+k:20 laplace: 55
+spam correct: 3 ham correct: 20
+----------------------------------
+k:20 laplace: 60
+spam correct: 3 ham correct: 20
+----------------------------------
+k:20 laplace: 65
+spam correct: 3 ham correct: 20
+----------------------------------
+k:20 laplace: 70
+spam correct: 3 ham correct: 20
+----------------------------------
+k:25 laplace: 0
+spam correct: 10 ham correct: 19
+----------------------------------
+k:25 laplace: 5
+spam correct: 7 ham correct: 19
+----------------------------------
+k:25 laplace: 10
+spam correct: 6 ham correct: 19
+----------------------------------
+k:25 laplace: 15
+spam correct: 6 ham correct: 20
+----------------------------------
+k:25 laplace: 20
+spam correct: 6 ham correct: 20
+----------------------------------
+k:25 laplace: 25
+spam correct: 6 ham correct: 20
+----------------------------------
+k:25 laplace: 30
+spam correct: 5 ham correct: 20
+----------------------------------
+k:25 laplace: 35
+spam correct: 4 ham correct: 20
+----------------------------------
+k:25 laplace: 40
+spam correct: 4 ham correct: 20
+----------------------------------
+k:25 laplace: 45
+spam correct: 4 ham correct: 20
+----------------------------------
+k:25 laplace: 50
+spam correct: 4 ham correct: 20
+----------------------------------
+k:25 laplace: 55
+spam correct: 3 ham correct: 20
+----------------------------------
+k:25 laplace: 60
+spam correct: 3 ham correct: 20
+----------------------------------
+k:25 laplace: 65
+spam correct: 3 ham correct: 20
+----------------------------------
+k:25 laplace: 70
+spam correct: 3 ham correct: 20
+----------------------------------
+k:30 laplace: 0
+spam correct: 12 ham correct: 19
+----------------------------------
+k:30 laplace: 5
+spam correct: 9 ham correct: 19
+----------------------------------
+k:30 laplace: 10
+spam correct: 7 ham correct: 19
+----------------------------------
+k:30 laplace: 15
+spam correct: 7 ham correct: 20
+----------------------------------
+k:30 laplace: 20
+spam correct: 7 ham correct: 20
+----------------------------------
+k:30 laplace: 25
+spam correct: 7 ham correct: 20
+----------------------------------
+k:30 laplace: 30
+spam correct: 5 ham correct: 20
+----------------------------------
+k:30 laplace: 35
+spam correct: 5 ham correct: 20
+----------------------------------
+k:30 laplace: 40
+spam correct: 5 ham correct: 20
+----------------------------------
+k:30 laplace: 45
+spam correct: 5 ham correct: 20
+----------------------------------
+k:30 laplace: 50
+spam correct: 4 ham correct: 20
+----------------------------------
+k:30 laplace: 55
+spam correct: 4 ham correct: 20
+----------------------------------
+k:30 laplace: 60
+spam correct: 4 ham correct: 20
+----------------------------------
+k:30 laplace: 65
+spam correct: 4 ham correct: 20
+----------------------------------
+k:30 laplace: 70
+spam correct: 4 ham correct: 20
+----------------------------------
+k:35 laplace: 0
+spam correct: 7 ham correct: 19
+----------------------------------
+k:35 laplace: 5
+spam correct: 6 ham correct: 20
+----------------------------------
+k:35 laplace: 10
+spam correct: 6 ham correct: 20
+----------------------------------
+k:35 laplace: 15
+spam correct: 6 ham correct: 20
+----------------------------------
+k:35 laplace: 20
+spam correct: 5 ham correct: 20
+----------------------------------
+k:35 laplace: 25
+spam correct: 5 ham correct: 20
+----------------------------------
+k:35 laplace: 30
+spam correct: 5 ham correct: 20
+----------------------------------
+k:35 laplace: 35
+spam correct: 5 ham correct: 20
+----------------------------------
+k:35 laplace: 40
+spam correct: 5 ham correct: 20
+----------------------------------
+k:35 laplace: 45
+spam correct: 5 ham correct: 20
+----------------------------------
+k:35 laplace: 50
+spam correct: 5 ham correct: 20
+----------------------------------
+k:35 laplace: 55
+spam correct: 3 ham correct: 20
+----------------------------------
+k:35 laplace: 60
+spam correct: 3 ham correct: 20
+----------------------------------
+k:35 laplace: 65
+spam correct: 3 ham correct: 20
+----------------------------------
+k:35 laplace: 70
+spam correct: 3 ham correct: 20
+----------------------------------
+k:40 laplace: 0
+spam correct: 5 ham correct: 20
+----------------------------------
+k:40 laplace: 5
+spam correct: 5 ham correct: 20
+----------------------------------
+k:40 laplace: 10
+spam correct: 5 ham correct: 20
+----------------------------------
+k:40 laplace: 15
+spam correct: 5 ham correct: 20
+----------------------------------
+k:40 laplace: 20
+spam correct: 5 ham correct: 20
+----------------------------------
+k:40 laplace: 25
+spam correct: 5 ham correct: 20
+----------------------------------
+k:40 laplace: 30
+spam correct: 5 ham correct: 20
+----------------------------------
+k:40 laplace: 35
+spam correct: 5 ham correct: 20
+----------------------------------
+k:40 laplace: 40
+spam correct: 4 ham correct: 20
+----------------------------------
+k:40 laplace: 45
+spam correct: 4 ham correct: 20
+----------------------------------
+k:40 laplace: 50
+spam correct: 3 ham correct: 20
+----------------------------------
+k:40 laplace: 55
+spam correct: 3 ham correct: 20
+----------------------------------
+k:40 laplace: 60
+spam correct: 3 ham correct: 20
+----------------------------------
+k:40 laplace: 65
+spam correct: 3 ham correct: 20
+----------------------------------
+k:40 laplace: 70
+spam correct: 3 ham correct: 20
+----------------------------------
+k:45 laplace: 0
+spam correct: 5 ham correct: 20
+----------------------------------
+k:45 laplace: 5
+spam correct: 5 ham correct: 20
+----------------------------------
+k:45 laplace: 10
+spam correct: 5 ham correct: 20
+----------------------------------
+k:45 laplace: 15
+spam correct: 5 ham correct: 20
+----------------------------------
+k:45 laplace: 20
+spam correct: 4 ham correct: 20
+----------------------------------
+k:45 laplace: 25
+spam correct: 4 ham correct: 20
+----------------------------------
+k:45 laplace: 30
+spam correct: 4 ham correct: 20
+----------------------------------
+k:45 laplace: 35
+spam correct: 4 ham correct: 20
+----------------------------------
+k:45 laplace: 40
+spam correct: 4 ham correct: 20
+----------------------------------
+k:45 laplace: 45
+spam correct: 4 ham correct: 20
+----------------------------------
+k:45 laplace: 50
+spam correct: 4 ham correct: 20
+----------------------------------
+k:45 laplace: 55
+spam correct: 4 ham correct: 20
+----------------------------------
+k:45 laplace: 60
+spam correct: 4 ham correct: 20
+----------------------------------
+k:45 laplace: 65
+spam correct: 3 ham correct: 20
+----------------------------------
+k:45 laplace: 70
+spam correct: 3 ham correct: 20
+----------------------------------
+k:50 laplace: 0
+spam correct: 5 ham correct: 20
+----------------------------------
+k:50 laplace: 5
+spam correct: 5 ham correct: 20
+----------------------------------
+k:50 laplace: 10
+spam correct: 5 ham correct: 20
+----------------------------------
+k:50 laplace: 15
+spam correct: 5 ham correct: 20
+----------------------------------
+k:50 laplace: 20
+spam correct: 4 ham correct: 20
+----------------------------------
+k:50 laplace: 25
+spam correct: 4 ham correct: 20
+----------------------------------
+k:50 laplace: 30
+spam correct: 4 ham correct: 20
+----------------------------------
+k:50 laplace: 35
+spam correct: 4 ham correct: 20
+----------------------------------
+k:50 laplace: 40
+spam correct: 4 ham correct: 20
+----------------------------------
+k:50 laplace: 45
+spam correct: 4 ham correct: 20
+----------------------------------
+k:50 laplace: 50
+spam correct: 4 ham correct: 20
+----------------------------------
+k:50 laplace: 55
+spam correct: 4 ham correct: 20
+----------------------------------
+k:50 laplace: 60
+spam correct: 4 ham correct: 20
+----------------------------------
+k:50 laplace: 65
+spam correct: 3 ham correct: 20
+----------------------------------
+k:50 laplace: 70
+spam correct: 3 ham correct: 20
+----------------------------------
+k:55 laplace: 0
+spam correct: 4 ham correct: 20
+----------------------------------
+k:55 laplace: 5
+spam correct: 4 ham correct: 20
+----------------------------------
+k:55 laplace: 10
+spam correct: 4 ham correct: 20
+----------------------------------
+k:55 laplace: 15
+spam correct: 4 ham correct: 20
+----------------------------------
+k:55 laplace: 20
+spam correct: 4 ham correct: 20
+----------------------------------
+k:55 laplace: 25
+spam correct: 4 ham correct: 20
+----------------------------------
+k:55 laplace: 30
+spam correct: 4 ham correct: 20
+----------------------------------
+k:55 laplace: 35
+spam correct: 4 ham correct: 20
+----------------------------------
+k:55 laplace: 40
+spam correct: 3 ham correct: 20
+----------------------------------
+k:55 laplace: 45
+spam correct: 3 ham correct: 20
+----------------------------------
+k:55 laplace: 50
+spam correct: 3 ham correct: 20
+----------------------------------
+k:55 laplace: 55
+spam correct: 3 ham correct: 20
+----------------------------------
+k:55 laplace: 60
+spam correct: 3 ham correct: 20
+----------------------------------
+k:55 laplace: 65
+spam correct: 3 ham correct: 20
+----------------------------------
+k:55 laplace: 70
+spam correct: 3 ham correct: 20
+----------------------------------
+k:60 laplace: 0
+spam correct: 5 ham correct: 20
+----------------------------------
+k:60 laplace: 5
+spam correct: 5 ham correct: 20
+----------------------------------
+k:60 laplace: 10
+spam correct: 5 ham correct: 20
+----------------------------------
+k:60 laplace: 15
+spam correct: 4 ham correct: 20
+----------------------------------
+k:60 laplace: 20
+spam correct: 4 ham correct: 20
+----------------------------------
+k:60 laplace: 25
+spam correct: 4 ham correct: 20
+----------------------------------
+k:60 laplace: 30
+spam correct: 4 ham correct: 20
+----------------------------------
+k:60 laplace: 35
+spam correct: 4 ham correct: 20
+----------------------------------
+k:60 laplace: 40
+spam correct: 3 ham correct: 20
+----------------------------------
+k:60 laplace: 45
+spam correct: 3 ham correct: 20
+----------------------------------
+k:60 laplace: 50
+spam correct: 3 ham correct: 20
+----------------------------------
+k:60 laplace: 55
+spam correct: 3 ham correct: 20
+----------------------------------
+k:60 laplace: 60
+spam correct: 3 ham correct: 20
+----------------------------------
+k:60 laplace: 65
+spam correct: 3 ham correct: 20
+----------------------------------
+k:60 laplace: 70
+spam correct: 3 ham correct: 20
+----------------------------------
+k:65 laplace: 0
+spam correct: 5 ham correct: 20
+----------------------------------
+k:65 laplace: 5
+spam correct: 5 ham correct: 20
+----------------------------------
+k:65 laplace: 10
+spam correct: 5 ham correct: 20
+----------------------------------
+k:65 laplace: 15
+spam correct: 4 ham correct: 20
+----------------------------------
+k:65 laplace: 20
+spam correct: 4 ham correct: 20
+----------------------------------
+k:65 laplace: 25
+spam correct: 4 ham correct: 20
+----------------------------------
+k:65 laplace: 30
+spam correct: 4 ham correct: 20
+----------------------------------
+k:65 laplace: 35
+spam correct: 4 ham correct: 20
+----------------------------------
+k:65 laplace: 40
+spam correct: 3 ham correct: 20
+----------------------------------
+k:65 laplace: 45
+spam correct: 3 ham correct: 20
+----------------------------------
+k:65 laplace: 50
+spam correct: 3 ham correct: 20
+----------------------------------
+k:65 laplace: 55
+spam correct: 3 ham correct: 20
+----------------------------------
+k:65 laplace: 60
+spam correct: 3 ham correct: 20
+----------------------------------
+k:65 laplace: 65
+spam correct: 3 ham correct: 20
+----------------------------------
+k:65 laplace: 70
+spam correct: 3 ham correct: 20
+----------------------------------
+k:70 laplace: 0
+spam correct: 5 ham correct: 19
+----------------------------------
+k:70 laplace: 5
+spam correct: 5 ham correct: 19
+----------------------------------
+k:70 laplace: 10
+spam correct: 5 ham correct: 20
+----------------------------------
+k:70 laplace: 15
+spam correct: 4 ham correct: 20
+----------------------------------
+k:70 laplace: 20
+spam correct: 4 ham correct: 20
+----------------------------------
+k:70 laplace: 25
+spam correct: 4 ham correct: 20
+----------------------------------
+k:70 laplace: 30
+spam correct: 4 ham correct: 20
+----------------------------------
+k:70 laplace: 35
+spam correct: 3 ham correct: 20
+----------------------------------
+k:70 laplace: 40
+spam correct: 3 ham correct: 20
+----------------------------------
+k:70 laplace: 45
+spam correct: 3 ham correct: 20
+----------------------------------
+k:70 laplace: 50
+spam correct: 3 ham correct: 20
+----------------------------------
+k:70 laplace: 55
+spam correct: 3 ham correct: 20
+----------------------------------
+k:70 laplace: 60
+spam correct: 3 ham correct: 20
+----------------------------------
+k:70 laplace: 65
+spam correct: 3 ham correct: 20
+----------------------------------
+k:70 laplace: 70
+spam correct: 3 ham correct: 20
+----------------------------------
+k:75 laplace: 0
+spam correct: 6 ham correct: 18
+----------------------------------
+k:75 laplace: 5
+spam correct: 6 ham correct: 18
+----------------------------------
+k:75 laplace: 10
+spam correct: 5 ham correct: 19
+----------------------------------
+k:75 laplace: 15
+spam correct: 4 ham correct: 20
+----------------------------------
+k:75 laplace: 20
+spam correct: 4 ham correct: 20
+----------------------------------
+k:75 laplace: 25
+spam correct: 4 ham correct: 20
+----------------------------------
+k:75 laplace: 30
+spam correct: 4 ham correct: 20
+----------------------------------
+k:75 laplace: 35
+spam correct: 4 ham correct: 20
+----------------------------------
+k:75 laplace: 40
+spam correct: 4 ham correct: 20
+----------------------------------
+k:75 laplace: 45
+spam correct: 4 ham correct: 20
+----------------------------------
+k:75 laplace: 50
+spam correct: 4 ham correct: 20
+----------------------------------
+k:75 laplace: 55
+spam correct: 4 ham correct: 20
+----------------------------------
+k:75 laplace: 60
+spam correct: 3 ham correct: 20
+----------------------------------
+k:75 laplace: 65
+spam correct: 3 ham correct: 20
+----------------------------------
+k:75 laplace: 70
+spam correct: 3 ham correct: 20
+----------------------------------
+The value K used in training is 0
+The Laplace smoothing constant used in training is 5
+The number of HAM emails that were classified correctly: 91
+The number of SPAM emails that were classified correctly: 91
+The accuracy of classifying Ham is 91.0%
+The accuracy of classifying Spam is 91.0%

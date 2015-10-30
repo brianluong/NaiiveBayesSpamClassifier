@@ -78,6 +78,7 @@ public class Training {
 					evaluatedK = k;
 					evaluatedLaplace = laplace;
 				}
+				System.out.println("----------------------------------");
 			}
 		}
 		return bestParameters;

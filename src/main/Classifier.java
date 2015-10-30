@@ -55,6 +55,7 @@ public class Classifier {
 //					+ "\n     likelihood in spam: " + classifier.getModel().get(word).getLikelihoodSpam());
 //		}
 		
+		System.out.println("\nAltering k-values and Laplace soothing... \n");
 		trainer = new Training(SPAM_TRAINING_EMAILS_FILEPATH, HAM_TRAINING_EMAILS_FILEPATH);
 		classifier = new Classifier(SPAM_TESTING_EMAILS_FILEPATH, HAM_TESTING_EMAILS_FILEPATH, trainer);
 		classifier.setModel(trainer.trainWithEvaluation());
